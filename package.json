@@ -1,0 +1,33 @@
+{
+  "name": "criar_senhas_sgp",
+  "version": "1.0.0",
+  "description": "Este script será usado para criar as senhas iniciais dos usuários do Sistema de Gerênciamento de Processos (SGP), da Secretaria de Estado da Educação, Ciência e Tecnologia do Governo da Paraíba, através da leitura de um arquivo CSV.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardmont/criar_senhas_sgp.git"
+  },
+  "author": "José Ardiles Guimarães Montenegro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardmont/criar_senhas_sgp/issues"
+  },
+  "homepage": "https://github.com/ardmont/criar_senhas_sgp#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "standard": "^13.1.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/backend/test/*.js"
+    ]
+  }
+}
