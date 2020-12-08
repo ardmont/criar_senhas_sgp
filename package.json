@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ardmont/criar_senhas_sgp#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "fast-csv": "^3.4.0"
+    "fast-csv": "^4.3.6"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
